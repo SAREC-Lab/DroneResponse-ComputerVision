@@ -1,6 +1,6 @@
 # Getting Started with CRC 
 
-While computer vision models can be trained on a CPU, training on a GPU will allow the training to run quicker and more efficiently. This is where *CRC* comes in! Since everyone may not have access to a GPU directly, we will be using *CRC* for all of our vision model training purposes. 
+While computer vision models can be trained on a CPU, training on a GPU will allow the training to run quicker and more efficiently. This is where **CRC** comes in! Since everyone may not have access to a GPU directly, we will be using **CRC** for all of our vision model training purposes. 
 
 ## Common Tasks 
 
