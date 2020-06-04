@@ -15,7 +15,7 @@ Make sure to use your Notre Dame NetID
 
 ### Installing Dependencies 
 
-Your file system is mounted on the machine to where you will submit your jobs (i.e.,training a vision model), so you can prepare your environment on the front-end node ('crcfe02.crc.nd.ed`) and then later submit the job to be completed. 
+Your file system is mounted on the machine to where you will submit your jobs (i.e.,training a vision model), so you can prepare your environment on the front-end node ( 'crcfe02.crc.nd.ed` ) and then later submit the job to be completed. 
 
 Since these are vision tasks, I suggest creating and preparing a conda environment that you can use later to run your program. You will only need to run it once (unless you add more dependencies to the project). 
 
