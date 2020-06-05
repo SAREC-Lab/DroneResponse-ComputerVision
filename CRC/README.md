@@ -24,6 +24,8 @@ I recommend mounting the CRC drive locally to your machine to make life easier a
 
 ### Mounting CRC Drive Locally 
 
+**YOU DONT HAVE TO DO THIS, IF IT DOESNT SEEM TO WORK SKIP AND USE A TRANSFER CLIENT IF YOU NEED TO TRANSFER FILES**
+
 Do the following in your local machine, not in CRC: 
 
 ```sh
