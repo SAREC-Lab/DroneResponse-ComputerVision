@@ -202,3 +202,6 @@ quota
 # Volume Name                   Quota      Used %Used   Partition
 # u.netid                     1500 GB     15 GB    1%         30%
 ```
+**If you were able to do all this, then props to you! :D You will be in good shape for training the computer vision models on CRC!** 
+
+![Alt Text](https://4.bp.blogspot.com/-FL-5tsODN_4/WN_NN6QHJbI/AAAAAAAOVJs/xBcy7pPquVkgL-Q5qf-klPTpGGh87gmWwCLcB/s1600/AW401359_05.gif)
