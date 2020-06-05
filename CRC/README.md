@@ -8,7 +8,7 @@ While computer vision models can be trained on a CPU, training on a GPU will all
 
 ### MAC Homies 
 
-If you want to use a GUI then then you will probably need to download a a program like [Fastx](https://docs.crc.nd.edu/general_pages/f/fastx.html#fastx) first! After this is complete, you can simply proceed with the next steps. 
+If you want to use a GUI then then you will probably need to download a program like [Fastx](https://docs.crc.nd.edu/general_pages/f/fastx.html#fastx) first! After this is complete, you can simply proceed with the next steps. 
 
 ### Windows Homies 
 
