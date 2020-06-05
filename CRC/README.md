@@ -144,7 +144,7 @@ If all goes well, your output should look something like this:
 	GPU 2: GeForce GTX TITAN X
 	GPU 3: GeForce GTX TITAN X
 Sleeping 20s...
-Finished execution!
+FINISHED!! HURRAY :D!
 ```
 
 ### Submitting Jobs
