@@ -2,7 +2,7 @@
 #$ -M <your_net_id>@nd.edu  # Email to be notified (also put $ in front of this line)
 #$ -m abe                   # Send mail when job begins, ends and aborts
 #$ -q gpu	                # Specify job queue
-#$ -l gpu_card=1            # Specify number of GPU cards to use - 1 to 4, be polite :)
+#$ -l gpu_card=1            # Specify number of GPU cards to use - WE WILL USE ONE, BECAUSE WE ARE POLITE! :D 
 #$ -N my_job                # Specify a job name
 
 echo " >> Running on $(uname -n)"
