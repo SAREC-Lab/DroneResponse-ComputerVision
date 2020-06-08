@@ -108,7 +108,7 @@ As we can see, the distribution is not equal among the images. However, we want 
 
 Considering the number of images in `test` is just a matter of having a good representation to evaluate how well the model is working. Get a handful of images from each of the classes and also generate a `.csv` file that contains the correct label for each image in `test` which can be used to make sure the model classified the images correctly. 
 
-I would ignore the `Other` class of images. These are the images that with unclear weather conditions. 
+I would ignore the `Other` class of images. These are the images with unclear weather conditions. 
 
 Since these images will also be deployed on drones, we want to see how well these classifiers will perform on examples of images captured from drones. The datasets collected from the UG^2 challenge is perfect for this: http://cvpr2020.ug2challenge.org/
 
