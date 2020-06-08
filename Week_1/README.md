@@ -117,3 +117,9 @@ Since these images will also be deployed on drones, we want to see how well thes
 However, the data collected from these challenges are in the form of videos, so the frames will need to be extracted and placed in the correct folders. 
 
 The data prep part is usually the least fun for peeps, but once it is over the fun part of computer vision approaches! :) Just make sure to take care in preparing it because creating the classifiers will eitherwise become a nightmare! It is worth taking the time to do well! 
+
+
+<p align="center">
+  <img src="https://media.tenor.com/images/a2d4bd8183644f4bb83590e9e430e490/tenor.gif" width="500" height="500"/>
+</p>
+
