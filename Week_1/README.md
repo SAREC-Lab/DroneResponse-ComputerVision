@@ -120,6 +120,6 @@ The data prep part is usually the least fun for peeps, but once it is over the f
 
 
 <p align="center">
-  <img src="https://media.tenor.com/images/a2d4bd8183644f4bb83590e9e430e490/tenor.gif" width="500" height="500"/>
+  <img src="https://media.tenor.com/images/a2d4bd8183644f4bb83590e9e430e490/tenor.gif"/>
 </p>
 
