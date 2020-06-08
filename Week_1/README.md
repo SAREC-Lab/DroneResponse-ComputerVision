@@ -106,6 +106,8 @@ Another important thing to consider is the number of images in each folder. The 
 
 As we can see, the distribution is not equal among the images. However, we want our `class` and `not_class` folder to have approximately the same number of images. For example for the `sunny` case, the `sunny` folder would contain 1428 images from Sunny and then 357 images from each other other classes in the `not_sunny` folder so this folder too would have 1428 images. 
 
+It is also important to note that the more data available, the better it is. So if there are images from other datasets that can be added to this to increase the number of examples for the less represented classes, then it would be incredibly helpful when training to have that included! 
+
 Considering the number of images in `test` is just a matter of having a good representation to evaluate how well the model is working. Get a handful of images from each of the classes and also generate a `.csv` file that contains the correct label for each image in `test` which can be used to make sure the model classified the images correctly. 
 
 I would ignore the `Other` class of images. These are the images with unclear weather conditions. 
@@ -113,3 +115,5 @@ I would ignore the `Other` class of images. These are the images with unclear we
 Since these images will also be deployed on drones, we want to see how well these classifiers will perform on examples of images captured from drones. The datasets collected from the UG^2 challenge is perfect for this: http://cvpr2020.ug2challenge.org/
 
 However, the data collected from these challenges are in the form of videos, so the frames will need to be extracted and placed in the correct folders. 
+
+The data prep part is usually the least fun for peeps, but once it is over the fun part of computer vision approaches! :) Just make sure to take care in preparing it because creating the classifiers will eitherwise become a nightmare! It is worth taking the time to do well! 
