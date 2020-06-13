@@ -51,7 +51,7 @@ I have included tasks you can aim to complete for this at the bottom of the note
 You are now going to be feature magicians! How awesome! Best of luck, here if you need anything :) 
 
 <p align="center">
-  <img src="https://i.gifer.com/Sc7.gif" width="300" height="300"/>
+  <img src="https://cdn.dribbble.com/users/2838660/screenshots/6237017/magician_dribbble_2.gif" width="300" height="300"/>
 </p>
 
 
