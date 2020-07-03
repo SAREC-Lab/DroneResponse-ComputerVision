@@ -56,7 +56,7 @@ def main():
   daylight_model  = load('./daylight-classifier.joblib')
   daylight_scaler = load('./daylight-scaler.joblib')
 
-  cap = cv2.VideoCapture('../daylight-stream-demo/dark.mp4')
+  cap = cv2.VideoCapture('../demo-videos/daylight.mp4')
   # os.popen("vlc ../daylight-stream-demo/daylight.mp4")
 
   while(True):
