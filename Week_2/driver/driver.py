@@ -33,6 +33,8 @@ def main():
   for arg in sys.argv[1:]:
     id = arg
 
+  previous_condition = json.dumps("")
+
   sio = socketio.Client()
   sio.connect('http://localhost:4201')
 
@@ -56,7 +58,7 @@ def main():
   daylight_model  = load('./daylight-classifier.joblib')
   daylight_scaler = load('./daylight-scaler.joblib')
 
-  cap = cv2.VideoCapture('../demo-videos/daylight.mp4')
+  cap = cv2.VideoCapture('../demo-videos/dark.mp4')
   # os.popen("vlc ../daylight-stream-demo/daylight.mp4")
 
   while(True):
@@ -83,8 +85,12 @@ def main():
     }
 
     json_weather_conditions = json.dumps(weather_conditions)
-    print(f'sent data from {id}')
-    sio.emit('weather', json_weather_conditions)
+    if not json_weather_conditions == previous_condition:
+      print(f'sent data from {id}: {json_weather_conditions}')
+      previous_condition = json_weather_conditions
+      sio.emit('weather', json_weather_conditions)
+    else:
+      print(f'redundant data: {json_weather_conditions}')
 
 if __name__ == "__main__":
     main()
