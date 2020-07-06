@@ -58,7 +58,7 @@ def main():
   daylight_model  = load('./daylight-classifier.joblib')
   daylight_scaler = load('./daylight-scaler.joblib')
 
-  cap = cv2.VideoCapture('../demo-videos/dark.mp4')
+  cap = cv2.VideoCapture('../demo-videos/weather.mp4')
   # os.popen("vlc ../daylight-stream-demo/daylight.mp4")
 
   while(True):
@@ -80,7 +80,7 @@ def main():
         "rainy":    np.int(make_prediction(rainy_model, rainy_scaler, rainy_features)),
         "snowy":    np.int(make_prediction(snowy_model, snowy_scaler, snowy_features)),
         "foggy":    np.int(make_prediction(foggy_model, foggy_scaler, foggy_features)),
-        "daylight": np.int(make_prediction(daylight_model, daylight_scaler, daylight_features))
+        "dark" :    np.int(make_prediction(daylight_model, daylight_scaler, daylight_features))
       }
     }
 
